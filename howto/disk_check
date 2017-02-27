@@ -1,0 +1,2 @@
+badblocks -v /dev/sda
+smartctl -a /dev/sda

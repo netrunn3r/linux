@@ -1,0 +1,2 @@
+sudo iw dev wlp3s0 scan | grep SSID
+iw dev wlp1s0 [link | station dump | scan]

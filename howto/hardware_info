@@ -1,0 +1,2 @@
+dmidecode [-t memory]
+ethtool	enp0s25 	// link speed

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo -ne "`date '+%d.%m.%Y %H:%M'` \t" >> ~/my_work.txt
+echo -ne "$@ \r\n" >> ~/my_work.txt

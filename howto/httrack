@@ -1,0 +1,1 @@
+httrack --near --display --extra-log --keep-alive --tolerant --can-go-up-and-down -u2 --urlhack -T60 -R9 -O ./. 'http://'
