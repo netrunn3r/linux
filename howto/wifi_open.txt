@@ -1,2 +1,0 @@
-iwconfig wlp3s0 essid <name>
-iwconfigwlp3s0 ap any
